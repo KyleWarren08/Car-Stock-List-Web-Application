@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stock_Taking_Web_API", "Stock_Taking_Web_API\Stock_Taking_Web_API.csproj", "{366861F2-80CF-4E12-B222-8720EF92999C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StockDb", "..\StockDb\StockDb.sqlproj", "{168BF69E-EE99-4504-9BDD-428D0E77ABC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{366861F2-80CF-4E12-B222-8720EF92999C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{366861F2-80CF-4E12-B222-8720EF92999C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{366861F2-80CF-4E12-B222-8720EF92999C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{366861F2-80CF-4E12-B222-8720EF92999C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168BF69E-EE99-4504-9BDD-428D0E77ABC9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F75AC092-6F0C-4883-A5B7-00E4FB2E62D8}
+	EndGlobalSection
+EndGlobal

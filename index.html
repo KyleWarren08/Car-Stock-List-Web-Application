@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volkswagen Car Models Stock List</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="navBar">
+    <a class="active" href="index.html">Volkswagen Stock List</a>       
+</div> 
+
+<div class="container">
+    <div class = "Stock_Menu">
+        <div class="makeModelHeading">
+            <p>Car Make and Model</p>
+        </div>
+        <div class="inputMakeModel">
+            <input type = "text" id = "Car_Make_Model" placeholder="Add Car Make and Model">
+        </div>     
+        <div class="featuresHeading">
+            <p>Car Features</p>
+        </div>
+        <div class="carFeatures">
+            <textarea id = "carFeatures" placeholder="Add Car Features"></textarea>
+        </div>       
+        <div class="carAmountHeading">
+            <p>Car Amount</p>
+        </div>
+        <div class="inputAmount">
+            <input type = "number" step="1" id = "Amount_Of_Vehicles" placeholder="Add Amount Of Vehicles">
+        </div>
+        <div class="btnSave">
+            <button id="saveButton">Save</button>
+        </div>
+       <div class="btnDelete">
+            <button id="deleteButton" class="deleteButton hidden">Delete</button>
+       </div>      
+    </div>
+    <div class = "Stock_List_Container" id = "Stock_List_Container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
